@@ -1,7 +1,6 @@
 <?php
 
 function buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra2, $domain) {
-
     $names = str_replace('.', '', $name);
     echo '<article class="project clearfix">
         <header>
@@ -127,5 +126,10 @@ function checkext($filename) {
     return substr(strrchr($filename, '.'), 1);
 }
 
+function lastversion($ver) {
+	end($ver);
+	$ver = prev($ver);
+	return $ver['version'];
+}
 
 ?>

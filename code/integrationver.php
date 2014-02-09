@@ -8,15 +8,12 @@ $input   = $_GET["n"];
 
 mysql_connect('localhost', $dbuser, $dbpass);
 @mysql_select_db($dbname) or die("Unable to select database");
-$version = mysql_real_escape_string($input);
+$version = mysql_real_escape_string($version);
 $input = mysql_real_escape_string($input);
 $query = mysql_query("SELECT `filename` FROM `$dbname`.`files`  WHERE name=\"$input\" AND version=\"$version\" ");
 while ($row = mysql_fetch_assoc($query)) {
     $filenames = explode(",", $row['filename']);
-
-    $name2 = str_replace('.', '', $name);
-
-    echo '<div class="modal bigmodal hide fade" id="' . $name2 . 'modal" style="">
+    echo '
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h3>Quick Integration Code</h3>
@@ -31,8 +28,7 @@ while ($row = mysql_fetch_assoc($query)) {
         }
     }
     echo '</textarea>
-    </div>
-</div>';
+    </div>';
 
 }
 ?>

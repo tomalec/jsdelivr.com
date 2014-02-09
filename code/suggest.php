@@ -26,13 +26,11 @@ switch ($input) {
         $query = mysql_query("select * from `$dbname`.`files` WHERE name='bootstrap' ORDER BY `version` DESC");
         break;
     default:
-        $query = mysql_query("SELECT * FROM  ( select * from `$dbname`.`files` WHERE name LIKE '%$input%' ORDER BY `version` DESC) as tmp_table GROUP BY `name` LIMIT 10");
+        $query = mysql_query("SELECT * FROM  ( select * from `$dbname`.`files` WHERE name LIKE '%$input%' ORDER BY `version`) as tmp_table GROUP BY `name` LIMIT 10");
 }
-
 while ($row = mysql_fetch_assoc($query)) {
     $id          = $row['id'];
     $name        = $row['name'];
-    $ver         = $row['version'];
     $filenames   = explode(",", $row['filename']);
     $file_info   = parse_ini_file("../files/$name/info.ini");
     $author      = $file_info['author'];
@@ -45,7 +43,7 @@ while ($row = mysql_fetch_assoc($query)) {
 
     $query2 = mysql_query("SELECT `version` FROM `$dbname`.`files` WHERE name=\"$name\";");
     while ($arra2[] = mysql_fetch_array($query2));
-
+	$ver = lastversion($arra2);
     buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra2, $domain);
     $arra2 = '';
     $names[] .= $name; //build array with all names
