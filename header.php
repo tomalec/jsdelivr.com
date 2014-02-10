@@ -22,12 +22,12 @@ $google = $_GET["_escaped_fragment_"]; // https://developers.google.com/webmaste
         <link rel="dns-prefetch" href="//by.uservoice.com">
         <link rel="dns-prefetch" href="//s3.amazonaws.com">
         <link rel="prefetch" href="//cdn.jsdelivr.net/bootstrap/2.3.2/img/glyphicons-halflings-white.png">
-        <!--[if lt IE 9]>
-            <script src="//cdn.jsdelivr.net/html5shiv/3.7.0/html5shiv.js"></script>
-        <![endif]-->
+
         <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/hint.css/1.3.0/hint.min.css">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/github-fork-ribbon/0.1.0/gh-fork-ribbon.css">
         <link rel="stylesheet" href="css/style.css">
 
+        <!--[if lt IE 9]>
+            <script src="//cdn.jsdelivr.net/html5shiv/3.7.0/html5shiv.js"></script>
+        <![endif]-->
     </head>
