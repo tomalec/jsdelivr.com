@@ -10,7 +10,7 @@ if (!$google) {
     // No direct access to this file
     define('IS_AJAX', isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest');
     if (!IS_AJAX && !$good) {
-        die('Restricted access');
+       die('Restricted access');
     }
 } else {
     $input = $google;
@@ -42,9 +42,17 @@ while ($row = mysql_fetch_assoc($query)) {
     }
 
     $query2 = mysql_query("SELECT `version` FROM `$dbname`.`files` WHERE name=\"$name\";");
-    while ($arra2[] = mysql_fetch_array($query2));
-	$ver = lastversion($arra2);
-    buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra2, $domain);
+    while ($arra2[] = mysql_fetch_row($query2));
+
+	for($i = 0; $i < count($arra2); ++$i)
+	{
+		$arra3[] = $arra2[$i][0];
+	}
+	$arra3 = array_filter($arra3);
+	natsort($arra3);
+	$ver = end($arra3);
+    buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra3, $domain);
+    $arra3 = '';
     $arra2 = '';
     $names[] .= $name; //build array with all names
     $vers[$name] .= $ver;

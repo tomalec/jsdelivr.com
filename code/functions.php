@@ -1,6 +1,10 @@
 <?php
 
 function buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra2, $domain) {
+include('config.php');
+mysql_connect('localhost', $dbuser, $dbpass);
+@mysql_select_db($dbname) or die("Unable to select database");
+$query = mysql_query("SELECT `filename` FROM `$dbname`.`files`  WHERE name=\"$name\" AND version=\"$ver\" ");
     $names = str_replace('.', '', $name);
     echo '<article class="project clearfix">
         <header>
@@ -17,10 +21,8 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
         </button>
 
         <ul id="dropdown-1" class="dropdown-menu">';
-
     foreach ($arra2 as $arra) {
-        if ($arra)
-            echo "<li><a href='#'>" . $arra[version] . "</a></li>";
+		echo "<li><a href='#'>" . $arra . "</a></li>";
     }
     $arra2 = '';
 
@@ -61,7 +63,13 @@ function buildresult($name, $ver, $filenames, $author, $homepage, $github, $desc
     $arra = '';
     foreach ($filenames as &$filename) {
         if ($filename)
-            echo "<tr><td><input class='sefile' onclick='this.select()' value='//cdn.jsdelivr.net/$name/$ver/$filename'></td></tr> ";
+            while ($row = mysql_fetch_assoc($query)) {
+				$filenames = explode(",", $row['filename']); 
+				foreach ($filenames as &$filename) {
+					if ($filename)
+					   echo "<tr><td><input class='sefile' onclick='this.select()' value='//cdn.jsdelivr.net/$name/$ver/$filename'></td></tr> ";
+				}
+			}
     }
 
     echo '</tbody>
@@ -124,12 +132,6 @@ function parsefilenames($name, $vers, $filenamesarr) {
 
 function checkext($filename) {
     return substr(strrchr($filename, '.'), 1);
-}
-
-function lastversion($ver) {
-	end($ver);
-	$ver = prev($ver);
-	return $ver['version'];
 }
 
 ?>
