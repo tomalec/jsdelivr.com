@@ -22,7 +22,7 @@ while ($row = mysql_fetch_assoc($query)) {
     <textarea class="field input-block-level" rows="15">';
     foreach ($filenames as $filename) {
         if (checkext($filename) == 'js') {
-            echo '<script type="text/javascript" src="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '"></script>&#13;';
+            echo '<script src="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '"></script>&#13;';
         } elseif (checkext($filename) == 'css') {
             echo '<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '"/>&#13;';
         }
