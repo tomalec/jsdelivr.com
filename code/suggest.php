@@ -76,6 +76,7 @@ $(function () {
 
         var filelist = 'fileli' + fileg;
         var versionli = 'ver' + fileg;
+        var downloadbox = 'download' + fileg;
         var modalli = fileg + 'modal';
 
         if (!file) {
@@ -96,7 +97,8 @@ $(function () {
 
             }
         });
-
+        $('#'+downloadbox).attr('href','//cdn.jsdelivr.net/'+file+'/'+version+'/' +file+'.zip');        
+        
         var yt_url = 'http://$domain/code/integrationver.php?v=' + version + '&n=' + file;
         $.ajax({
             type: 'GET',

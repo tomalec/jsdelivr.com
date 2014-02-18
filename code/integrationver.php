@@ -19,12 +19,12 @@ while ($row = mysql_fetch_assoc($query)) {
         <h3>Quick Integration Code</h3>
     </div>
     <div class="modal-body">
-    <textarea class="field span11" rows="15">';
+    <textarea class="field input-block-level" rows="15">';
     foreach ($filenames as $filename) {
         if (checkext($filename) == 'js') {
-            echo '<script src="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '">&#13;';
+            echo '<script src="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '"></script>&#13;';
         } elseif (checkext($filename) == 'css') {
-            echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '">&#13;';
+            echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '"/>&#13;';
         }
     }
     echo '</textarea>

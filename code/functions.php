@@ -48,7 +48,7 @@ $query = mysql_query("SELECT `filename` FROM `$dbname`.`files`  WHERE name=\"$na
             <a href="#' . $names . 'modal" data-toggle="modal" class="download">Integration</a>
         </div>
         <div class="integration-zip">
-            <a href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $name . '.zip" class="download">Download Zip</a>
+            <a href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $name . '.zip" id="download'.$names.'" class="download">Download Zip</a>
         </div>
         <div id="fileli' . $names . '" class="files">
             <table class="table table-striped table-hover">
@@ -107,7 +107,7 @@ function quickview($names, $vers, $filenamesarr) {
         <h3>Quick Integration Code</h3>
     </div>
     <div class="modal-body">
-        <textarea class="field span11" rows="15">';
+        <textarea class="field input-block-level" rows="15">';
             parsefilenames($name, $vers, $filenamesarr);
             echo '</textarea>
         </div>
@@ -123,7 +123,7 @@ function parsefilenames($name, $vers, $filenamesarr) {
             if (checkext($filename) == 'js') {
                 echo '<script src="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $filename . '"></script>&#13;';
             } elseif (checkext($filename) == 'css') {
-                echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $filename . '">&#13;';
+                echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $filename . '"/>&#13;';
             }
         }
     }
