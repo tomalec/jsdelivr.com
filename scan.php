@@ -70,7 +70,7 @@ function find_all_files($dir, $plugin_dir, $ver_dir) {
 }
 
 function db($name, $homepage, $author, $version, $filename) {
-	include('code/config.php');
+    include('code/config.php');
     if ($name == 'jslock')
         return 0;
     mysql_connect('localhost', $dbuser, $dbpass);

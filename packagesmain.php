@@ -54,7 +54,7 @@ header('Content-type: application/json');
 echo json_encode($fpackage);
 
 function runqr2($run) {
-	include('code/config.php');
+    include('code/config.php');
     mysql_connect('localhost', $dbuser, $dbpass);
     @mysql_select_db($dbname) or die("Unable to select database 2");
     $query = mysql_query($run);
@@ -66,7 +66,7 @@ function runqr2($run) {
 }
 
 function runqr($run) {
-	include('code/config.php');
+    include('code/config.php');
     mysql_connect('localhost', $dbuser, $dbpass);
     @mysql_select_db($dbname) or die("Unable to select database 3");
     $query  = mysql_query($run);

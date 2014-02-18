@@ -36,9 +36,9 @@
                 <p>
                     No and there will never be.
                 </p>
-				<h2>Does MaxCDN own jsDelivr?</h2>
+                <h2>Does MaxCDN own jsDelivr?</h2>
                 <p>
-                    No, MaxCDN is one of our biggest sponsors but they don't own or influence the project in any way. Neither does any other company. 
+                    No, MaxCDN is one of our biggest sponsors but they don't own or influence the project in any way. Neither does any other company.
                 </p>
                 <h2>Why are some projects tagged as version 0.1?</h2>
                 <p>

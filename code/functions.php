@@ -22,7 +22,7 @@ $query = mysql_query("SELECT `filename` FROM `$dbname`.`files`  WHERE name=\"$na
 
         <ul id="dropdown-1" class="dropdown-menu">';
     foreach ($arra2 as $arra) {
-		echo "<li><a href='#'>" . $arra . "</a></li>";
+        echo "<li><a href='#'>" . $arra . "</a></li>";
     }
     $arra2 = '';
 
@@ -64,12 +64,12 @@ $query = mysql_query("SELECT `filename` FROM `$dbname`.`files`  WHERE name=\"$na
     foreach ($filenames as &$filename) {
         if ($filename)
             while ($row = mysql_fetch_assoc($query)) {
-				$filenames = explode(",", $row['filename']); 
-				foreach ($filenames as &$filename) {
-					if ($filename)
-					   echo "<tr><td><input class='sefile' onclick='this.select()' value='//cdn.jsdelivr.net/$name/$ver/$filename'></td></tr> ";
-				}
-			}
+                $filenames = explode(",", $row['filename']);
+                foreach ($filenames as &$filename) {
+                    if ($filename)
+                       echo "<tr><td><input class='sefile' onclick='this.select()' value='//cdn.jsdelivr.net/$name/$ver/$filename'></td></tr> ";
+                }
+            }
     }
 
     echo '</tbody>
