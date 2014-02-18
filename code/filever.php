@@ -24,7 +24,7 @@ while ($row = mysql_fetch_assoc($query)) {
     }
     echo '</tbody>
             </table>
-        </div> <script type="text/javascript">$(".files").showMore();</script>';
+        </div> <script>$(".files").showMore();</script>';
 }
 
 
