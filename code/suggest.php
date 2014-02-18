@@ -66,7 +66,7 @@ while ($row = mysql_fetch_assoc($query)) {
 if (!$name) {
     echo "No results<br>";
 }
-echo "<script type='text/javascript'>
+echo "<script>
 $(function () {
     $('#dropdown-1 >li > a').click(function (e) {
         e.preventDefault();
@@ -97,21 +97,8 @@ $(function () {
 
             }
         });
-
-        var yt_url = 'http://$domain/code/filedownload.php?v=' + version + '&n=' + file;
-        $.ajax({
-            type: 'GET',
-            url: yt_url,
-
-            success: function (response) {
-                $('#'+downloadbox).attr('href','#');        
-                if (response.length) {
-                    $('#'+downloadbox).attr('href',response);        
-                }
-
-            }
-        });
-
+        $('#'+downloadbox).attr('href','//cdn.jsdelivr.net/'+file+'/'+version+'/' +file+'.zip');        
+        
         var yt_url = 'http://$domain/code/integrationver.php?v=' + version + '&n=' + file;
         $.ajax({
             type: 'GET',
@@ -130,6 +117,6 @@ $(function () {
     return false;
 });
 </script>
-<script type='text/javascript'>$('.files').showMore();</script>";
+<script>$('.files').showMore();</script>";
 quickview($names, $vers, $filenamesarr);
 ?>
