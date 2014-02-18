@@ -67,7 +67,7 @@ $query = mysql_query("SELECT `filename` FROM `$dbname`.`files`  WHERE name=\"$na
                 $filenames = explode(",", $row['filename']);
                 foreach ($filenames as &$filename) {
                     if ($filename)
-                       echo "<tr><td><input class='sefile' onclick='this.select()' value='//cdn.jsdelivr.net/$name/$ver/$filename'></td></tr> ";
+                       echo "<tr><td><input class='sefile' onclick='this.select()' value='//cdn.jsdelivr.net/$name/$ver/$filename'></td></tr>";
                 }
             }
     }
@@ -123,7 +123,7 @@ function parsefilenames($name, $vers, $filenamesarr) {
             if (checkext($filename) == 'js') {
                 echo '<script src="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $filename . '"></script>&#13;';
             } elseif (checkext($filename) == 'css') {
-                echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $filename . '"/>&#13;';
+                echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/' . $name . '/' . $ver . '/' . $filename . '">&#13;';
             }
         }
     }
