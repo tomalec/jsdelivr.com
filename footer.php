@@ -19,12 +19,12 @@
             </ul>
         </footer>
     </div> <!-- /container -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5"></script>
-    <script type="text/javascript" src='js/custom.js'></script>
-    <script type="text/javascript" src='js/jquery.showMore.js'></script>
+    <script src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5"></script>
+    <script src='js/custom.js'></script>
+    <script src='js/jquery.showMore.js'></script>
 
 <?php if(!$google){ include('code/config.php');?>
-    <script type="text/javascript">
+    <script>
         // Search
         $(document).ready(gogo());
         $(window).bind('hashchange', function () {
@@ -57,7 +57,7 @@
     </script>
 <?php } ?>
 
-    <script type="text/javascript">
+    <script>
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-31822709-1']);
         _gaq.push(['_trackPageview']);
