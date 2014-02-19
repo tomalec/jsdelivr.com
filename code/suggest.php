@@ -25,6 +25,9 @@ switch ($input) {
     case 'bootstrap':
         $query = mysql_query("select * from `$dbname`.`files` WHERE name='bootstrap' ORDER BY `version` DESC");
         break;
+	case 'min':
+        $query = mysql_query("select * from `$dbname`.`files` WHERE name='min' ORDER BY `version` DESC");
+        break;
     default:
         $query = mysql_query("SELECT * FROM  ( select * from `$dbname`.`files` WHERE name LIKE '%$input%' ORDER BY `version`) as tmp_table GROUP BY `name` LIMIT 10");
 }
