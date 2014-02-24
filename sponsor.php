@@ -52,24 +52,11 @@
                 <h2>Sponsors</h2>
                 <p>Currently jsDelivr is sponsored by:</p>
                 <ul>
-                    <li>NetDNA - Unlimited traffic and SSL</li>
-                    <li>CDN.NET - Traffic and SSL</li>
+                    <li>MaxCDN - Unlimited traffic and SSL</li>
                     <li>Cedexis - Load balancing services.</li>
-                    <li>UserVoice - Unlimited plan of their product</li>
-                    <li>KnightSwarm - 1 VPS in Netherlands with plenty of bandwidth</li>
-                    <li>FAPVPS - 1 VPS in USA</li>
-                    <li>OISSITE - 1 VPS in USA</li>
                     <li>Leapswitch - 2 VPS in Portugal and Ukraine</li>
                     <li>Prometeus - 1 VPS in Italy</li>
-                    <li>FinnDNS - 1 VPS in France with Unlimited 1Gbps traffic</li>
-                    <li>Supremebytes - 1 VPS in Los Angeles with plenty of 1Gbps traffic</li>
                     <li>SecureAX - 1 VPS in Singapore</li>
-                    <li>nDeviX - 1 VPS in Kansas</li>
-                    <li>Nodepop - 1 VPS in Fremont</li>
-                    <li>SouthBendServers - 1 VPS in South Bend</li>
-                    <li>Jack - 1 VPS in Italy</li>
-                    <li>CloudShards - 1 VPS in Buffalo</li>
-                    <li>AlpineDC - 1 VPS in Switzerland</li>
                     <li>Jetdino - 1 VPS in Indonesia</li>
                 </ul>
 
@@ -91,8 +78,8 @@
                     <li>
                         POPs - Min Requirements: 5GB HDD, 1TB Bandwidth, 512MB RAM, 2 cores CPU, CentOS x64
                         <ul>
-                            <li>VPS servers with good network speed and uptime. Any location will do.</li>
-                            <li>Dedicated servers with good network speed. Any location will do.</li>
+                            <li>VPS servers with good network speed and uptime.</li>
+                            <li>Dedicated servers with good network speed.</li>
                             <li>Specialized file storage services with FTP or Rsync access. Must support Custom CNAME and SSL.</li>
                             <li>All POP locations will be used to serve static content. Nginx+SSL will be installed. We do not expect big CPU loads.</li>
                             <li>The traffic is load balanced by intelligent software that will monitor all POPs for performance and uptime.</li>

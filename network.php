@@ -23,9 +23,9 @@
         </header>
 
         <div class="row first">
-            <h3>81 POP Locations all over the world</h3>
+            <h3>41 POP Locations all over the world</h3>
             <div class="span11">
-                <iframe width='900' height='450' src='http://a.tiles.mapbox.com/v3/jimaek.map-6gmedxyr.html#3/44.416237743661995/-40.7748890822703'></iframe>
+                <iframe width='900' height='450' src='http://a.tiles.mapbox.com/v3/jimaek.map-6gmedxyr/mm/zoompan,zoomwheel.html'></iframe>
             </div>
         </div>
 

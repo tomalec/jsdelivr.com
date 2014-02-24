@@ -55,9 +55,9 @@
                     All files are hosted on a Push zone on NetDNA servers. The only way to access the files is by FTP using a whitelisted IP address.
                 </p>
                 <h3>Sponsors</h3>
-                <h2>CDN.NET</h2>
+                <h2>CloudFlare</h2>
                 <p>
-                    CDN.NET is one of our CDN providers. They offer us worldwide coverage and the best possible speed for all users around the globe.
+                    CloudFlare is one of our CDN providers. They offer us worldwide coverage and the best possible speed for all users around the globe.
                 </p>
                 <h2>Cedexis</h2>
                 <p>
@@ -65,27 +65,11 @@
                 </p>
                 <h2>MaxCDN</h2>
                 <p>
-                    MaxCDN is the second CDN provider we use. Most of the USA based traffic is served by them. Plus our main push zone is located on their servers.
-                </p>
-                <h2>UserVoice</h2>
-                <p>
-                    Uservoice sponsors us with an "Unlimited" package that we use to process all project hosting requests.
+                    MaxCDN is the second main CDN provider we use. They offer us worldwide coverage and the best possible speed for all users around the globe.
                 </p>
                 <h2>Builtwith</h2>
                 <p>
                     Builtwith.com generously provides us with reports that help us track the usage of jsDelivr.
-                </p>
-                <h2>KnightSwarm</h2>
-                <p>
-                    <a href="http://KnightSwarm.com">KnightSwarm</a> is sponsoring us with custom POP locations in Netherlands.
-                </p>
-                <h2>OISSITE</h2>
-                <p>
-                    <a href="http://oissite.com">OISSITE</a> is sponsoring us with custom POP locations in Irvine,California
-                </p>
-                <h2>FAPVPS</h2>
-                <p>
-                    <a href="http://fapvps.com">FAPVPS</a> is sponsoring us with custom POP location in Lenoir, North Carolina.
                 </p>
                 <h2>Leapswitch</h2>
                 <p>
@@ -95,37 +79,9 @@
                 <p>
                     <a href="http://prometeus.net">Prometeus</a> is sponsoring us with custom POP location in Italy.
                 </p>
-                <h2>FinnDNS</h2>
-                <p>
-                    <a href="http://finndns.eu">FinnDNS</a> is sponsoring us with custom POP location in France.
-                </p>
-                <h2>Supremebytes</h2>
-                <p>
-                    <a href="http://supremebytes.com">Supremebytes</a> is sponsoring us with custom POP location in Los Angeles.
-                </p>
                 <h2>SecureAX</h2>
                 <p>
                     <a href="http://www.secureax.com/">SecureAX</a> is sponsoring us with custom POP location in Singapore.
-                </p>
-                <h2>nDeviX</h2>
-                <p>
-                    <a href="http://www.ndevix.com/">nDeviX</a> is sponsoring us with custom POP location in Kansas.
-                </p>
-                <h2>Nodepop</h2>
-                <p>
-                    <a href="http://www.nodepop.com/">Nodepop</a> is sponsoring us with custom POP location in Fremont.
-                </p>
-                <h2>SouthBendServers</h2>
-                <p>
-                    <a href="https://southbendservers.com">SouthBendServers</a> is sponsoring us with custom POP location in South Bend.
-                </p>
-                <h2>CloudShards</h2>
-                <p>
-                    <a href="https://CloudShards.com">CloudShards</a> is sponsoring us with custom POP location in Buffalo.
-                </p>
-                <h2>AlpineDC</h2>
-                <p>
-                    <a href="https://AlpineDC.ch">AlpineDC</a> is sponsoring us with custom POP location in Switzerland.
                 </p>
                 <h2>Jetdino</h2>
                 <p>
