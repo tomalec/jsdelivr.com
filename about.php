@@ -1,5 +1,7 @@
 <?php include('header.php'); ?>
-<body>
+<body><!-- top area starts -->
+    <div class="topbar"></div>
+    <div class="menubar">
     <div class="github-fork-ribbon-wrapper right">
         <div class="github-fork-ribbon">
             <a href="https://github.com/jimaek/jsdelivr">Fork me on GitHub</a>
@@ -8,22 +10,32 @@
     <div class="container">
         <header class="clearfix">
             <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
+                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com"/>
             </a>
             <nav class="pull-right">
                 <ul>
                     <li><a href="network.php">Network</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="faq.php">FAQ</a></li>
-                    <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt icon-white"></i></a></li>
-                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr">Submit</a></li>
+                    <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
+                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-danger">Submit</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="row first single">
-            <div class="span11">
-                <h3>About</h3>
-                <p>
+    </div><!-- container ends -->
+    </div><!-- menu ends -->
+    
+    <div class="page-title">
+    	<div class="container">
+    	<h2>About jsDelivr</h2>
+    	</div><!-- container ends -->
+    </div>
+    
+    
+    <div class="container content"><!-- actual contaner for content starts -->
+        <div class="row first well">
+             <div class="span11">                
+                <br/><br/><p>
                      jsDelivr is a free CDN (Content Delivery Network) where any web developer can host their files,
                      including CSS, fonts, JavaScript, jQuery plugins, etc.
                 </p>
@@ -34,7 +46,7 @@
                     Plus a lot more types of projects are allowed, like CSS frameworks, fonts, WordPress plugins etc.<br>
                     And by using GitHub, we allow the community to fully interact with jsDelivr by adding and updating files.
                 </p>
-                <h2>System</h2>
+                <h4>System</h4>
                 <p>
                     What makes it super-fast is the unique multi-CDN infrastructure we use. MaxCDN (NetDNA) and CDN.net
                     (which is powered by the huge federated network of OnApp) agreed to combine their powers for the good
@@ -44,51 +56,73 @@
                     This unique system not only gives us the best possible uptime and performance,
                     but also allows us to expand dynamically and add new providers on the fly.
                 </p>
-                <h2>Uptime</h2>
+                <h4>Uptime</h4>
                 <p>
                     All CDNs can go down and most have. But this is not the case with jsDelivr because we use 2 CDN providers.
                     If any of them goes down all traffic automatically will be switched to the remaining operational CDN.<br>
                     jsDelivr is the only public CDN to use multiple providers which makes it the most reliable of them all.
                 </p>
-                <h2>Security</h2>
+                <h4>Security</h4>
                 <p>
                     All files are hosted on a Push zone on NetDNA servers. The only way to access the files is by FTP using a whitelisted IP address.
                 </p>
-                <h3>Sponsors</h3>
-                <h2>CloudFlare</h2>
-                <p>
-                    CloudFlare is one of our CDN providers. They offer us worldwide coverage and the best possible speed for all users around the globe.
-                </p>
-                <h2>Cedexis</h2>
+                </div>
+           </div><!-- row ends -->
+
+           <div class="row first well">
+             <div class="span11">
+                <div class="seperator"><div class="lebrag"><h3>Sponsors</h3></div></div>
+                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/Cloudflare.png" alt=""/></div>
+                <div class="sponsor-content"><h2>Cloudflare</h2>
+                <p>CloudFlare is one of our CDN providers. They offer us worldwide coverage and the best possible speed for all users around the globe.
+                </p></div><div class="clearfix"></div></div>
+
+                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/cedexis.png" alt=""/></div>
+                <div class="sponsor-content"><h2>Cedexis</h2>
                 <p>
                     Cedexis allows us to do load balancing between an unlimited amount of CDN providers and failover in case one provider goes down.
-                </p>
-                <h2>MaxCDN</h2>
+                </p></div><div class="clearfix"></div></div>
+
+                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/maxcdn.png" alt=""/></div>
+                <div class="sponsor-content"><h2>MaxCDN</h2>
                 <p>
                     MaxCDN is the second main CDN provider we use. They offer us worldwide coverage and the best possible speed for all users around the globe.
-                </p>
-                <h2>Builtwith</h2>
+                </p></div><div class="clearfix"></div></div>
+              
+                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/builtwith.png" alt=""/></div>
+                <div class="sponsor-content"><h2>Builtwith</h2>
                 <p>
                     Builtwith.com generously provides us with reports that help us track the usage of jsDelivr.
-                </p>
-                <h2>Leapswitch</h2>
+                </p></div><div class="clearfix"></div></div>
+
+                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/leapswitch.png" alt=""/></div>
+                <div class="sponsor-content"><h2>Leapswitch</h2>
                 <p>
                     <a href="http://leapswitch.com">leapswitch</a> is sponsoring us with custom POP locations in Portugal and Ukraine.
-                </p>
-                <h2>Prometeus</h2>
+                </p></div><div class="clearfix"></div></div>
+
+                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/prometeus.png" alt=""/></div>
+                <div class="sponsor-content"><h2>Prometeus</h2>
                 <p>
                     <a href="http://prometeus.net">Prometeus</a> is sponsoring us with custom POP location in Italy.
-                </p>
-                <h2>SecureAX</h2>
+                </p></div><div class="clearfix"></div></div>
+
+                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/secureax.png" alt=""/></div>
+                <div class="sponsor-content"><h2>SecureAX</h2>
                 <p>
                     <a href="http://www.secureax.com/">SecureAX</a> is sponsoring us with custom POP location in Singapore.
-                </p>
-                <h2>Jetdino</h2>
+                </p></div><div class="clearfix"></div></div>
+
+                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/jetdino.png" alt=""/></div>
+                <div class="sponsor-content"><h2>Jetdino</h2>
                 <p>
                     <a href="https://jetdino.com">Jetdino</a> is sponsoring us with custom POP location in Indonesia.
-                </p>
-                <hr>
-                <h3>Media/Mentions/Links</h3>
+                </p></div><div class="clearfix"></div></div>
+             </div>
+           </div><!-- row ends -->
+
+           <div class="row first well">
+                <div class="seperator"><div class="lebrag"><h3>Media Mentions and Links</h3></div></div>
                 <blockquote>
                     <a href="http://royal.pingdom.com/2013/05/22/web-dev-projects/">Interview with driving forces behind web dev projects jsDelivr & jSter</a><small><cite title="Source Title">Pingdom Interview</cite></small>
                 </blockquote>
@@ -142,7 +176,7 @@
                     <a href="http://w3techs.com/technologies/details/cd-jsdelivr/all/all">w3techs.com</a>
                 </p>
             </div> <!-- span11 -->
-        </div> <!-- row first single -->
+        </div> <!-- row first well -->
 
 
 <?php include('footer.php'); ?>

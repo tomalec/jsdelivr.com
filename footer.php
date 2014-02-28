@@ -1,30 +1,40 @@
-        <footer>
-            <div id="shareme" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page"></div>
-            <div class="pull-right">
-                <p>Official sponsors:<br>
+    </div> <!-- /container -->
+    <footer>
+        <div class="container">
+          <div class="row-fluid">
+            <div id="shareme" class="span4" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page">  </div>
+            <div class="span4"><p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p></div>            
+            <div class="span4">
+                <p class="pull-right">Official sponsors:&nbsp;<br/>
                     <a href="http://www.uservoice.com">
                         <img alt="Sponsored by UserVoice" src="img/uservoice.png" width="122" height="27">
                     </a>
                 <p>
             </div>
-            <p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p>
-            <hr>
-            <p>
-                jsDelivr &copy; 2014 | <a href="https://twitter.com/jimaek">@jimaek</a>
-             </p>
+          </div><!-- row ends here -->          
+          <div class="row-fluid">
+          <hr/>
              <ul>
                 <li>contact@jsdelivr.com | <a href="https://groups.google.com/forum/#!forum/jsdelivr">Mailing Group</a></li>
                 <li>For Developers: <a href="https://github.com/jsdelivr/api">Official API</a></li>
                 <li>Design based on NASA.Code</li>
-            </ul>
-        </footer>
-    </div> <!-- /container -->
-    <script src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5"></script>
-    <script src='js/custom.js'></script>
-    <script src='js/jquery.showMore.js'></script>
+            </ul>            
+           </div><!-- row ends here -->
+           <div class="row-fluid">
+           <hr/>
+            <p>
+                jsDelivr &copy; 2014. All rights reserved. | <a href="https://twitter.com/jimaek">@jimaek</a>
+             </p>
+          </div><!-- row ends here -->
+        </div>
+      </footer><!-- page-footer ends -->
+    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5"></script>
+    <script type="text/javascript" src='js/custom.js'></script>
+    <script type="text/javascript" src='js/jquery.showMore.js'></script>
 
 <?php if(!$google){ include('code/config.php');?>
-    <script>
+    <script type="text/javascript">
         // Search
         $(document).ready(gogo());
         $(window).bind('hashchange', function () {
@@ -57,7 +67,7 @@
     </script>
 <?php } ?>
 
-    <script>
+    <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-31822709-1']);
         _gaq.push(['_trackPageview']);
