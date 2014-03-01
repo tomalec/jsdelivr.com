@@ -2,32 +2,32 @@
 
 <body><!-- top area starts -->
     <div class="menubar">
-    <div class="github-fork-ribbon-wrapper left">
-        <div class="github-fork-ribbon">
+        <div class="github-fork-ribbon-wrapper left">
+            <div class="github-fork-ribbon">
             <a href="https://github.com/jimaek/jsdelivr">Fork me on GitHub</a>
+            </div>
         </div>
-    </div>
-    <div class="container">
-        <header class="clearfix">
-            <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
-            </a>
-            <nav class="pull-right">
-                <ul>
-                    <li><a href="network.php">Network</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="faq.php">FAQ</a></li>
-                    <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
-                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-info">Submit</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div><!-- container ends -->
+        <div class="container">
+            <header class="clearfix">
+                <a class="pull-left" href="index.php">
+                    <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
+                </a>
+                <nav class="pull-right">
+                    <ul>
+                        <li><a href="network.php">Network</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
+                        <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
+                        <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-info">Submit</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div><!-- container ends -->
     </div><!-- menu ends -->
     
     <div class="page-title">
     	<div class="container">
-    	<h2>Network &amp; Features</h2>
+    	    <h2>Network &amp; Features</h2>
     	</div><!-- container ends -->
     </div>
     
@@ -70,6 +70,5 @@
                 </ul>
             </div>
         </div>
-
 
 <?php include('footer.php'); ?>

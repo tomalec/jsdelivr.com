@@ -1,36 +1,36 @@
 ﻿<?php include('header.php'); ?>
 <body><!-- top area starts -->
     <div class="menubar">
-    <div class="github-fork-ribbon-wrapper left">
-        <div class="github-fork-ribbon">
+        <div class="github-fork-ribbon-wrapper left">
+            <div class="github-fork-ribbon">
             <a href="https://github.com/jimaek/jsdelivr">Fork me on GitHub</a>
+            </div>
         </div>
-    </div>
-    <div class="container">
-        <header class="clearfix">
-            <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
-            </a>
-            <div class="plugins pull-left">
-                <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
-                    <img src="img/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
+        <div class="container">
+            <header class="clearfix">
+                <a class="pull-left" href="index.php">
+                    <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
                 </a>
+				<div class="plugins pull-left">
+                    <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
+                        <img src="img/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
+                    </a>
                 <!--<img src="img/joomla-s.png" width="40" height="40" alt="Get jsDelivr for Joomla" title="Joomla plugin coming *not* soon">
                     <img src="img/drupal.png" width="40" height="40" alt="Get jsDelivr for Drupal" title="Drupal plugin coming *not* soon">-->
-            </div>
-            <nav class="pull-right">
-                <ul>
-                    <li><a href="network.php">Network</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="faq.php">FAQ</a></li>
-                    <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
-                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-info">Submit</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div><!-- container ends -->
+                </div>
+                <nav class="pull-right">
+                    <ul>
+                        <li><a href="network.php">Network</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
+                        <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
+                        <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-info">Submit</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div><!-- container ends -->
     </div><!-- menu ends -->
-    
+	   
     <div class="page-title">
     	<div class="container">
     	<h2>Sponsorships</h2>
@@ -110,6 +110,5 @@
                  <p>*We wont offer all of the above to all sponsors, it depends on the offer.</p>
             </div>
         </div>
-
 
 <?php include('footer.php'); ?>
