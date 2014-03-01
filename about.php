@@ -1,8 +1,7 @@
 <?php include('header.php'); ?>
 <body><!-- top area starts -->
-    <div class="topbar"></div>
     <div class="menubar">
-    <div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon-wrapper left">
         <div class="github-fork-ribbon">
             <a href="https://github.com/jimaek/jsdelivr">Fork me on GitHub</a>
         </div>
@@ -10,7 +9,7 @@
     <div class="container">
         <header class="clearfix">
             <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50" style="margin-top: -5px;">
+                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
             <nav class="pull-right">
                 <ul>
@@ -18,7 +17,7 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="faq.php">FAQ</a></li>
                     <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
-                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-danger">Submit</a></li>
+                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-info">Submit</a></li>
                 </ul>
             </nav>
         </header>
@@ -33,8 +32,8 @@
     
     
     <div class="container content"><!-- actual contaner for content starts -->
-        <div class="row first well">
-             <div class="span11">                
+        <div class="row first">
+             <div class="span12">                
                 <br/><br/><p>
                      jsDelivr is a free CDN (Content Delivery Network) where any web developer can host their files,
                      including CSS, fonts, JavaScript, jQuery plugins, etc.
@@ -48,8 +47,8 @@
                 </p>
                 <h4>System</h4>
                 <p>
-                    What makes it super-fast is the unique multi-CDN infrastructure we use. MaxCDN (NetDNA) and CDN.net
-                    (which is powered by the huge federated network of OnApp) agreed to combine their powers for the good
+                    What makes it super-fast is the unique multi-CDN infrastructure we use. MaxCDN (NetDNA) and Cloudflare 
+                    agreed to combine their powers for the good
                     of the open source community and to sponsor us and become our CDN providers.<br>
                     All traffic to our CDN providers is load balanced based on availability and performance for each
                     individual user by another official sponsor of ours, the company Cedexis.<br>
@@ -69,8 +68,8 @@
                 </div>
            </div><!-- row ends -->
 
-           <div class="row first well">
-             <div class="span11">
+           <div class="row first">
+             <div class="span12">
                 <div class="seperator"><div class="lebrag"><h3>Sponsors</h3></div></div>
                 <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/Cloudflare.png" alt=""/></div>
                 <div class="sponsor-content"><h2>Cloudflare</h2>
@@ -121,7 +120,7 @@
              </div>
            </div><!-- row ends -->
 
-           <div class="row first well">
+           <div class="row first">
                 <div class="seperator"><div class="lebrag"><h3>Media Mentions and Links</h3></div></div>
                 <blockquote>
                     <a href="http://royal.pingdom.com/2013/05/22/web-dev-projects/">Interview with driving forces behind web dev projects jsDelivr & jSter</a><small><cite title="Source Title">Pingdom Interview</cite></small>
@@ -175,7 +174,7 @@
                 <p>
                     <a href="http://w3techs.com/technologies/details/cd-jsdelivr/all/all">w3techs.com</a>
                 </p>
-            </div> <!-- span11 -->
+            </div> <!-- span12 -->
         </div> <!-- row first well -->
 
 

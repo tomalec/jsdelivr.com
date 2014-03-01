@@ -1,8 +1,7 @@
 ﻿<?php include('header.php'); ?>
 <body><!-- top area starts -->
-    <div class="topbar"></div>
     <div class="menubar">
-    <div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon-wrapper left">
         <div class="github-fork-ribbon">
             <a href="https://github.com/jimaek/jsdelivr">Fork me on GitHub</a>
         </div>
@@ -10,7 +9,7 @@
     <div class="container">
         <header class="clearfix">
             <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50" style="margin-top: -5px;">
+                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
             <div class="plugins pull-left">
                 <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
@@ -25,7 +24,7 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="faq.php">FAQ</a></li>
                     <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
-                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-danger">Submit</a></li>
+                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-info">Submit</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,8 +39,8 @@
     
     
     <div class="container content"><!-- actual contaner for content starts -->
-        <div class="row first well">
-            <div class="span11">
+        <div class="row first">
+            <div class="span12">
                 <h2>About</h2>
                 <p>
                     jsDelivr is a free CDN (Content Delivery Network) where any web developer can host their files,

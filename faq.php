@@ -1,9 +1,8 @@
 <?php include('header.php'); ?>
 
 <body><!-- top area starts -->
-    <div class="topbar"></div>
     <div class="menubar">
-    <div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon-wrapper left">
         <div class="github-fork-ribbon">
             <a href="https://github.com/jimaek/jsdelivr">Fork me on GitHub</a>
         </div>
@@ -11,7 +10,7 @@
     <div class="container">
         <header class="clearfix">
             <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50" style="margin-top: -5px;">
+                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
             <nav class="pull-right">
                 <ul>
@@ -19,7 +18,7 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="faq.php">FAQ</a></li>
                     <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
-                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-danger">Submit</a></li>
+                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-info">Submit</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,8 +33,8 @@
     
     
     <div class="container content"><!-- actual contaner for content starts -->
-        <div class="row first well">
-            <div class="span11">
+        <div class="row first">
+            <div class="span12">
                 <h2>1: How can jsDelivr be free? How can it survive in the long term?</h2>
                 <p>
                     CDN traffic is expensive, yes. But all of our traffic and services are sponsored by awesome companies
@@ -101,7 +100,7 @@
                     Its just a hobby of mine, everything I know comes from different sources and online tutorials.
                     The important this is that it all works! :)
                 </p>
-            </div> <!-- span11 -->
+            </div> <!-- span12 -->
         </div> <!-- row first single -->
 
 

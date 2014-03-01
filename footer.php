@@ -11,21 +11,19 @@
                     </a>
                 <p>
             </div>
-          </div><!-- row ends here -->          
+          </div><!-- row ends here -->  
           <div class="row-fluid">
-          <hr/>
+            <p>
+                jsDelivr &copy; 2014 | <a href="https://twitter.com/jimaek">@jimaek</a>
+             </p>
+          </div><!-- row ends here -->		  
+          <div class="row-fluid">
              <ul>
                 <li>contact@jsdelivr.com | <a href="https://groups.google.com/forum/#!forum/jsdelivr">Mailing Group</a></li>
                 <li>For Developers: <a href="https://github.com/jsdelivr/api">Official API</a></li>
                 <li>Design based on NASA.Code</li>
             </ul>            
-           </div><!-- row ends here -->
-           <div class="row-fluid">
-           <hr/>
-            <p>
-                jsDelivr &copy; 2014. All rights reserved. | <a href="https://twitter.com/jimaek">@jimaek</a>
-             </p>
-          </div><!-- row ends here -->
+           </div><!-- row ends here -->           
         </div>
       </footer><!-- page-footer ends -->
     

@@ -2,7 +2,6 @@
 <?php include('code/config.php'); ?>
 
 <body><!-- top area starts -->
-    <div class="topbar"></div>
     <div class="menubar">
     <div class="github-fork-ribbon-wrapper left">
         <div class="github-fork-ribbon">
@@ -12,7 +11,7 @@
     <div class="container">
         <header class="clearfix">
             <a class="pull-left" href="index.php">
-                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50" style="margin-top: -5px;"/>
+                <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
             </a>
 			<div class="sponsortop">
 			    <a href="http://tracking.maxcdn.com/c/47243/36539/378"><img src="img/maxcdn.png" alt="Sponsored by MaxCDN" width="110" height="26" style="padding-right: 6px;margin-top: 2px;"></a>
@@ -25,7 +24,7 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="faq.php">FAQ</a></li>
                     <li><a target="_blank" href="http://blog.jsdelivr.com">Blog <i class="icon-share-alt"></i></a></li>
-                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-danger">Submit</a></li>
+                    <li id="submit"><a href="https://github.com/jimaek/jsdelivr" class="btn btn-info">Submit</a></li>
                 </ul>
             </nav>
         </header>
@@ -63,9 +62,10 @@
                         <h3>A new version available?</h3>
                     </div>
                     <div class="modal-body">
-                        <p>Please enter your email and press send.<br>
-                        We will receive your request and will try to find a newer version of this project.<br>
-                        If we can't we will contact you.</p>
+                        <p>Please enter your email and press send.</p>
+                        <p>We will receive your request and will try to find a newer version of this project.</p>
+                        <p>If we can't we will contact you.</p>
+						<p>&nbsp;</p>
                         <form method="post" class="form-inline" action="code/newversion.php" name="update_form">
                             <input type="text" class="span3" name="project" id="project" placeholder="Project" readonly>
                             <input type="text" class="span3" name="email" id="email" placeholder="Email">
