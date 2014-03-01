@@ -5,7 +5,7 @@
             <div id="shareme" class="span4" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page">  </div>
             <div class="span4"><p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p></div>            
             <div class="span4">
-                <p class="pull-right">Official sponsors:&nbsp;<br/>
+                <p class="pull-right">Official sponsors:
                     <a href="http://www.uservoice.com">
                         <img alt="Sponsored by UserVoice" src="img/uservoice.png" width="122" height="27">
                     </a>
@@ -25,11 +25,11 @@
             </ul>            
            </div><!-- row ends here -->           
         </div>
-      </footer><!-- page-footer ends -->
+    </footer><!-- page-footer ends -->
     
-    <script type="text/javascript" src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5"></script>
-    <script type="text/javascript" src='js/custom.js'></script>
-    <script type="text/javascript" src='js/jquery.showMore.js'></script>
+    <script src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5"></script>
+    <script src="js/custom.js"></script>
+    <script src='js/jquery.showMore.js'></script>
 
 <?php if(!$google){ include('code/config.php');?>
     <script type="text/javascript">
