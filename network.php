@@ -63,7 +63,7 @@
                     <li>Community managed</li>
                 </ul>
             </div>
-            <div class="span2">
+            <div class="span3">
                 <ul>
                     <li>RUM based routing</li>
                     <li>HTTPS Access</li>
