@@ -34,12 +34,12 @@
     <div class="container content"><!-- actual contaner for content starts -->
         <div class="row first">
              <div class="span12">                
-                <br/><br/><p>
+                <p>
                      jsDelivr is a free CDN (Content Delivery Network) where any web developer can host their files,
                      including CSS, fonts, JavaScript, jQuery plugins, etc.
                 </p>
                 <p>
-                    jsDelivr is a public open-source CDN where anyone can submit a project to be hosted and delivered by our network.<br>
+                    jsDelivr is a public open-source CDN where anyone can submit a project to be hosted and delivered by our network.
                     Most people probably know that Google hosts jQuery and a few other popular libraries.<br>
                     We don’t look at the popularity of the project to approve it for inclusion in jsDelivr.
                     Plus a lot more types of projects are allowed, like CSS frameworks, fonts, WordPress plugins etc.<br>
@@ -48,10 +48,8 @@
                 <h4>System</h4>
                 <p>
                     What makes it super-fast is the unique multi-CDN infrastructure we use. MaxCDN (NetDNA) and Cloudflare 
-                    agreed to combine their powers for the good
-                    of the open source community and to sponsor us and become our CDN providers.<br>
-                    All traffic to our CDN providers is load balanced based on availability and performance for each
-                    individual user by another official sponsor of ours, the company Cedexis.<br>
+                    agreed to combine their powers for the good of the open source community and to sponsor us and become our CDN providers.<br>
+                    All traffic to our CDN providers is load balanced based on availability and performance for each individual user by another official sponsor of ours, the company Cedexis.<br>
                     This unique system not only gives us the best possible uptime and performance,
                     but also allows us to expand dynamically and add new providers on the fly.
                 </p>

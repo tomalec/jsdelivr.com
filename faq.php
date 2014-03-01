@@ -38,7 +38,7 @@
                 <h2>1: How can jsDelivr be free? How can it survive in the long term?</h2>
                 <p>
                     CDN traffic is expensive, yes. But all of our traffic and services are sponsored by awesome companies
-                    that want to make the web a faster and better place. Check out the footer for credits.<br>
+                    that want to make the web a faster and better place. Check out the footer for credits.
                     It means that it doesn't matter how much traffic a plugin or project can generate, there is nothing to worry about.
                 </p>
                 <h2>2: Are there any bandwidth limits?</h2>
