@@ -1,23 +1,21 @@
-footbody {
-    background: #FBFBFB url('../img/cream_dust.png') repeat;
+body {
+    background-color: white;
 }
 
 h2 {
     font-size: 1.2em;
 }
 
-.content
-{
-margin-top: 260px;
-}
-.content-big
-{
-margin-top: 310px;
+.content {
+    margin-top: 260px;
 }
 
-.content-small
-{
-margin-top: 45px;
+.content-big {
+    margin-top: 310px;
+}
+
+.content-small {
+    margin-top: 45px;
 }
 
 header {
@@ -25,12 +23,12 @@ header {
 }
 
 .modal-body p {
-	margin: 0px;
+	margin: 0;
 	margin-bottom: 1px;
 }
 
 header img {
-max-width: 160px;
+    max-width: 160px;
 }
 nav {
     position: relative;
@@ -56,18 +54,20 @@ nav ul li a {
 }
 
 nav ul li a:focus {
-    background-color: rgb(246, 250, 254);
-    border: 1px solid #ECF3F4;
-    color: #111;
-    padding-left: 11px;padding-right: 11px;
+    background-color: #f6fafe;
+    border: 1px solid #ecf3f4;
+    color: #111111;
+    padding-left: 11px;
+	padding-right: 11px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: rgb(246, 250, 254);
-    border: 1px solid #ECF3F4;
-    color: #111;
-    padding-left: 11px;padding-right: 11px;
+    background-color: #f6fafe;
+    border: 1px solid #ecf3f4;
+    color: #111111;
+    padding-left: 11px;
+	padding-right: 11px;
     text-decoration: none;
 }
 
@@ -83,20 +83,20 @@ nav ul li a:hover {
 }
 
 .seperator {
-background: url("../img/JSsep.png") repeat-x;
-height: 40px;
-width: 100%;
-background-position: center;
-opacity: 0.9;
-margin: 10px 0px 20px 0px;
+    background: url("../img/JSsep.png") repeat-x;
+    height: 40px;
+    width: 100%;
+    background-position: center;
+    opacity: 0.9;
+    margin: 10px 0 20px 0;
 }
 
 .lebrag {
-background: #ffffff;
-padding: 0px 40px;
-margin: auto;
-max-width: 50%;
-text-align: center;
+    background: white;
+    padding: 0 40px;
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
 }
 
 #s {
@@ -111,7 +111,7 @@ text-align: center;
 
 .project {
     background-color: white;
-	border: 1px solid #D1d1d1;
+	border: 1px solid #d1d1d1;
 	-webkit-border-radius: 10px 5px 5px 5px;
 	-moz-border-radius: 10px 5px 5px 5px;
 	border-radius: 10px 5px 5px 5px;
@@ -144,13 +144,13 @@ text-align: center;
 }
 
 .project header h1 a {
-    color: #b00;
+    color: #bb0000;
     /*color:#dc3e00;*/
     font-style: normal;
 }
 
 .project header h1 a:hover {
-    color: #CC0000;
+    color: #cc0000;
     font-style: normal;
     text-decoration: none;
 }
@@ -238,23 +238,23 @@ text-align: center;
 
 .authorname {
     color: #495961;
-	font: normal normal 18px "Lucida Sans Unicode", sans-serif;
-	letter-spacing: -1px;
-	text-transform: none;
+    font: normal normal 18px "Lucida Sans Unicode", sans-serif;
+    letter-spacing: -1px;
+    text-transform: none;
 }
 
 .author {
     float: right;
-	padding: 8px 15px;
-	margin-right: -11px;
-	/* margin-top: 17px; */
-	height: 30px;
-	border-radius: 5px 0px 0px 5px;
-	-moz-border-radius: 5px 0px 0px 5px;
-	-webkit-border-radius: 5px 0px 0px 5px;
-	background: rgb(234, 240, 247);
-	background: rgba(234, 240, 247, 0.53);
-	border: 1px solid rgba(192, 201, 206, 0.3);
+    padding: 8px 15px;
+    margin-right: -11px;
+    /* margin-top: 17px; */
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    background: rgb(234, 240, 247);
+    background: rgba(234, 240, 247, 0.53);
+    border: 1px solid rgba(192, 201, 206, 0.3);
 }
 
 .author a {
@@ -265,7 +265,7 @@ text-align: center;
     float: left;
 	position: absolute;
 	width: 70%;
-	margin-left: 0px;
+	margin-left: 0;
 }
 
 .social img {
@@ -309,7 +309,7 @@ text-align: center;
 }
 
 #shareme .count {
-    border-right: 2px solid #57B8D1;
+    border-right: 2px solid #57b8d1;
     float: left;
     font-size: 30px;
     font-weight: bold;
@@ -385,7 +385,7 @@ text-align: center;
 }
 
 .integration-zip {
-    right: 9px;
+    right: 10px;
 }
 
 .download:focus {
@@ -393,18 +393,18 @@ text-align: center;
 }
 
 .download {
-text-align: center;
-background-color: #D2D2D2;
-vertical-align: middle;
-cursor: pointer;
-color: #ffffff !important;
-padding: 6px 9px;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
--webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
--moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);	
+    text-align: center;
+    background-color: #d2d2d2;
+    vertical-align: middle;
+    cursor: pointer;
+    color: white !important;
+    padding: 6px 9px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);	
 }
 
 .download:hover {
@@ -427,20 +427,6 @@ box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
     margin-bottom: 25px;
     padding-left: 10px;
     position: relative;
-}
-
-.well {
-min-height: 20px;
-padding: 0px;
-margin-bottom: 20px;
-background-color: #FFFFFF;
-border: 0px solid #d1d1d1;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
--webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0.05);
--moz-box-shadow: 0px 0px 0px rgba(0,0,0,0.05);
-box-shadow: 0px 0px 0px rgba(0,0,0,0.05);
 }
 
 .bigmodal {
@@ -466,115 +452,94 @@ iframe {
     overflow: hidden;
 }
 
-.topbar {
-height: 6px;
-min-width: 900px;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-background: #444349 url('../img/stardust_@2X.png') repeat fixed;
--webkit-box-shadow: 0 1px 2px rgba(0,0,0,.18);
--khtml-box-shadow: 0 1px 2px rgba(0,0,0,.18);
--moz-box-shadow: 0 1px 2px rgba(0,0,0,.18);
--ms-box-shadow: 0 1px 2px rgba(0,0,0,.18);
-box-shadow: 0 1px 2px rgba(0,0,0,.18);
-z-index: 999;
--webkit-backface-visibility: hidden;
--moz-backface-visibility: hidden;
--ms-backface-visibility: hidden;
--o-backface-visibility: hidden;
-backface-visibility: hidden;
-}
-
 .menubar {
-height: 80px;
-min-width: 900px;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-background: #fff;
--webkit-box-shadow: 0 1px 2px rgba(0,0,0,.18);
--khtml-box-shadow: 0 1px 2px rgba(0,0,0,.18);
--moz-box-shadow: 0 1px 2px rgba(0,0,0,.18);
--ms-box-shadow: 0 1px 2px rgba(0,0,0,.18);
-box-shadow: 0 1px 2px rgba(0,0,0,.18);
-z-index: 998;
--webkit-backface-visibility: hidden;
--moz-backface-visibility: hidden;
--ms-backface-visibility: hidden;
--o-backface-visibility: hidden;
-backface-visibility: hidden;
+    height: 80px;
+    min-width: 900px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.18);
+    -khtml-box-shadow: 0 1px 2px rgba(0,0,0,.18);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.18);
+    -ms-box-shadow: 0 1px 2px rgba(0,0,0,.18);
+    box-shadow: 0 1px 2px rgba(0,0,0,.18);
+    z-index: 998;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .page-title {
-height: 230px;
-min-width: 900px;
-width: 100%;
-border-bottom: 1px solid #efefef;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-background: #18101b url('../img/title-bg-img.jpg') repeat;
-background-position: 50% 0%;
-background-size: 130%;
--webkit-backface-visibility: hidden;
--moz-backface-visibility: hidden;
--ms-backface-visibility: hidden;
--o-backface-visibility: hidden;
-backface-visibility: hidden;
+    height: 230px;
+    min-width: 900px;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #18101b url('../img/title-bg-img.jpg') repeat;
+    background-position: 50% 0%;
+    background-size: 130%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .page-jumbo-title {
-height: 210px;
-min-width: 900px;
-width: 100%;
-border-bottom: 1px solid #efefef;
-position: absolute;
-top: 65px;
-left: 0;
-right: 0;
-background: #18101b url('../img/jsbg.jpg') repeat;
-background-position: 50% 95%;
-background-size: 100%;
--webkit-backface-visibility: hidden;
--moz-backface-visibility: hidden;
--ms-backface-visibility: hidden;
--o-backface-visibility: hidden;
-backface-visibility: hidden;
+    height: 210px;
+    min-width: 900px;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    background: #18101b url('../img/jsbg.jpg') repeat;
+    background-position: 50% 95%;
+    background-size: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .page-jumbo-title h3 {
-color: #f4f4f4;
+    color: #f4f4f4;
 }
 
 .page-title h2 {
-text-align: center;
-margin-top: 140px;
-font-size: 31px;
-color: #f1f1f1;
-font-weight: normal;
+    text-align: center;
+    margin-top: 140px;
+    font-size: 31px;
+    color: #f1f1f1;
+    font-weight: normal;
 }
 
 /* footer starts here */
 
 footer {
-clear: both;
-font-size: 13px;
-padding: 20px 0;
-letter-spacing: 0;
-color: #717171;
-border-top: 1px solid #e5e5e5;
-background: #F6F6F6 url('../img/agsquare.png') repeat;
-margin-top: 25px;
-text-align: center;
+    clear: both;
+    font-size: 13px;
+    padding: 20px 0;
+    letter-spacing: 0;
+    color: #717171;
+    border-top: 1px solid #e5e5e5;
+    background: #F6F6F6 url('../img/agsquare.png') repeat;
+    margin-top: 25px;
+    text-align: center;
 }
 
 footer ul {
     display: inline-block;
-    margin: 0px;
+    margin: 0;
     list-style-type: none;
 }
 
@@ -585,32 +550,27 @@ footer ul li a {
 
 /** sponsor content on about page **/
 
-.sponsor-content h2
-{
-line-height: 0.6em;
+.sponsor-content h2 {
+    line-height: 0.6em;
 }
 
-.sponsor-pic
-{
-width: 15%;
-height: 107px;
-overflow: hidden;
-margin-right: 30px;
-margin-bottom: 15px;
-float: left;
+.sponsor-pic {
+    width: 15%;
+    height: 107px;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    float: left;
 }
 
-.sponsor-pic img
-{
-display: table-cell;
-max-height: 107px;
-vertical-align: middle;
+.sponsor-pic img {
+    max-height: 107px;
+    vertical-align: middle;
 }
 
-.sponsor-content
-{
-width: 80%;
-height: 107px;
-margin-right: 0px;
-float: left;
+.sponsor-content {
+    width: 80%;
+    height: 107px;
+    margin-right: 0;
+    float: left;
 }
