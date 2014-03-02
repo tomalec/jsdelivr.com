@@ -550,10 +550,6 @@ footer ul li a {
 
 /** sponsor content on about page **/
 
-.sponsor-content h2 {
-    line-height: 0.6em;
-}
-
 .sponsor-pic {
     width: 15%;
     height: 107px;
@@ -566,11 +562,4 @@ footer ul li a {
 .sponsor-pic img {
     max-height: 107px;
     vertical-align: middle;
-}
-
-.sponsor-content {
-    width: 80%;
-    height: 107px;
-    margin-right: 0;
-    float: left;
 }

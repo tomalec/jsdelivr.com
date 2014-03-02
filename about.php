@@ -69,53 +69,72 @@
            <div class="row first">
              <div class="span12">
                 <div class="seperator"><div class="lebrag"><h3>Sponsors</h3></div></div>
-                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/Cloudflare.png" alt=""/></div>
-                <div class="sponsor-content"><h2>Cloudflare</h2>
-                <p>CloudFlare is one of our CDN providers. They offer us worldwide coverage and the best possible speed for all users around the globe.
-                </p></div><div class="clearfix"></div></div>
+				
+                <div class="media">
+                    <span class="sponsor-pic"><img src="img/sponsors/Cloudflare.png" alt=""/></span>
+                    <div class="media-body">
+                        <h4 class="media-heading">Cloudflare</h4>
+                        <p>CloudFlare is one of our CDN providers. They offer us worldwide coverage and the best possible speed for all users around the globe.</p>
+                    </div>
+                </div>
 
-                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/cedexis.png" alt=""/></div>
-                <div class="sponsor-content"><h2>Cedexis</h2>
-                <p>
-                    Cedexis allows us to do load balancing between an unlimited amount of CDN providers and failover in case one provider goes down.
-                </p></div><div class="clearfix"></div></div>
+				<div class="media">
+                    <span class="sponsor-pic"><img src="img/sponsors/cedexis.png" alt=""/></span>
+                    <div class="media-body">
+                        <h4 class="media-heading">Cedexis</h4>
+                        <p>Cedexis allows us to do load balancing between an unlimited amount of CDN providers and failover in case one provider goes down.</p>
+                    </div>
+                </div>
 
-                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/maxcdn.png" alt=""/></div>
-                <div class="sponsor-content"><h2>MaxCDN</h2>
-                <p>
-                    MaxCDN is the second main CDN provider we use. They offer us worldwide coverage and the best possible speed for all users around the globe.
-                </p></div><div class="clearfix"></div></div>
-              
-                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/builtwith.png" alt=""/></div>
-                <div class="sponsor-content"><h2>Builtwith</h2>
-                <p>
-                    Builtwith.com generously provides us with reports that help us track the usage of jsDelivr.
-                </p></div><div class="clearfix"></div></div>
+				<div class="media">
+                    <span class="sponsor-pic"><img src="img/sponsors/maxcdn.png" alt=""/></span>
+                    <div class="media-body">
+                        <h4 class="media-heading">MaxCDN</h4>
+                        <p>MaxCDN is the second main CDN provider we use. They offer us worldwide coverage and the best possible speed for all users around the globe.</p>
+                    </div>
+                </div>
 
-                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/leapswitch.png" alt=""/></div>
-                <div class="sponsor-content"><h2>Leapswitch</h2>
-                <p>
-                    <a href="http://leapswitch.com">leapswitch</a> is sponsoring us with custom POP locations in Portugal and Ukraine.
-                </p></div><div class="clearfix"></div></div>
+				<div class="media">
+                    <span class="sponsor-pic"><img src="img/sponsors/builtwith.png" alt=""/></span>
+                    <div class="media-body">
+                        <h4 class="media-heading">Builtwith</h4>
+                        <p>Builtwith.com generously provides us with reports that help us track the usage of jsDelivr.</p>
+                    </div>
+                </div>
 
-                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/prometeus.png" alt=""/></div>
-                <div class="sponsor-content"><h2>Prometeus</h2>
-                <p>
-                    <a href="http://prometeus.net">Prometeus</a> is sponsoring us with custom POP location in Italy.
-                </p></div><div class="clearfix"></div></div>
+				<div class="media">
+                    <span class="sponsor-pic"><img src="img/sponsors/leapswitch.png" alt=""/></span>
+                    <div class="media-body">
+                        <h4 class="media-heading">Leapswitch</h4>
+                        <p><a href="http://leapswitch.com">leapswitch</a> is sponsoring us with custom POP locations in Portugal and Ukraine.</p>
+                    </div>
+                </div>
+				
+				<div class="media">
+                    <span class="sponsor-pic"><img src="img/sponsors/prometeus.png" alt=""/></span>
+                    <div class="media-body">
+                        <h4 class="media-heading">Prometeus</h4>
+                        <p><a href="http://prometeus.net">Prometeus</a> is sponsoring us with custom POP location in Italy.</p>
+                    </div>
+                </div>
 
-                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/secureax.png" alt=""/></div>
-                <div class="sponsor-content"><h2>SecureAX</h2>
-                <p>
-                    <a href="http://www.secureax.com/">SecureAX</a> is sponsoring us with custom POP location in Singapore.
-                </p></div><div class="clearfix"></div></div>
+				<div class="media">
+                    <span class="sponsor-pic"><img src="img/sponsors/secureax.png" alt=""/></span>
+                    <div class="media-body">
+                        <h4 class="media-heading">SecureAX</h4>
+                        <p><a href="http://www.secureax.com/">SecureAX</a> is sponsoring us with custom POP location in Singapore.</p>
+                    </div>
+                </div>
 
-                <div class="sponsor-row"><div class="sponsor-pic"><img src="img/sponsors/jetdino.png" alt=""/></div>
-                <div class="sponsor-content"><h2>Jetdino</h2>
-                <p>
-                    <a href="https://jetdino.com">Jetdino</a> is sponsoring us with custom POP location in Indonesia.
-                </p></div><div class="clearfix"></div></div>
-             </div>
+				<div class="media">
+                    <span class="sponsor-pic"><img src="img/sponsors/jetdino.png" alt=""/></span>
+                    <div class="media-body">
+                        <h4 class="media-heading">Jetdino</h4>
+                        <p><a href="https://jetdino.com">Jetdino</a> is sponsoring us with custom POP location in Indonesia.</p>
+                    </div>
+                </div>
+                
+             </div><!-- span ends -->
            </div><!-- row ends -->
 
            <div class="row first">
