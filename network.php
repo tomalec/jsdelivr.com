@@ -32,7 +32,7 @@
     </div>
     
     
-    <div class="container content"><!-- actual contaner for content starts -->
+    <div class="container content"><!-- actual container for content starts -->
         <div class="row first" align="center">
             <div class="seperator"><div class="lebrag"><h3>41 POP Locations all over the world</h3></div></div>
             <div>

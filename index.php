@@ -47,7 +47,7 @@
 			</div><!-- container ends -->
     </div>
 				
-	<div class="container content-big"><!-- actual contaner for content starts -->
+	<div class="container content-big"><!-- actual container for content starts -->
                 <div id="result">
 <?php if ($google) {
     include('code/suggest.php'); // If google bot then dont use ajax but simply generate a static html page with the results he requested.

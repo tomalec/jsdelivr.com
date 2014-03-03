@@ -32,7 +32,7 @@
     </div>
     
     
-    <div class="container content"><!-- actual contaner for content starts -->
+    <div class="container content"><!-- actual container for content starts -->
         <div class="row first">
             <div class="span12">
                 <h2>1: How can jsDelivr be free? How can it survive in the long term?</h2>

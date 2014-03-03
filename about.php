@@ -31,7 +31,7 @@
     </div>
     
     
-    <div class="container content"><!-- actual contaner for content starts -->
+    <div class="container content"><!-- actual container for content starts -->
         <div class="row first">
              <div class="span12">                
                 <p>
