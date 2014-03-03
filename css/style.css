@@ -455,7 +455,6 @@ iframe {
     background-color: white;
     height: 80px;
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.18);
-    -khtml-box-shadow: 0 1px 2px rgba(0,0,0,.18);
     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.18);
     -ms-box-shadow: 0 1px 2px rgba(0,0,0,.18);
     box-shadow: 0 1px 2px rgba(0,0,0,.18);
@@ -473,8 +472,7 @@ iframe {
 }
 
 .page-title {
-    background: #18101b url('../img/title-bg-img.jpg') repeat 50% 0%;
-    background-size: 130%;    
+    background: #18101b url('../img/title-bg-img.jpg') 50% 0% / 130% repeat-x;
     border-bottom: 1px solid #efefef;
     left: 0;
     height: 230px;
@@ -491,8 +489,7 @@ iframe {
 }
 
 .page-jumbo-title {
-    background: #18101b url('../img/jsbg.jpg') repeat 50% 95%;
-    background-size: 100%;    
+    background: #18101b url('../img/jsbg.jpg') 50% 95% / 100% repeat-x;
     border-bottom: 1px solid #efefef;
     left: 0;
     height: 210px;

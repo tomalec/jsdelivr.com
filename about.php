@@ -32,7 +32,7 @@
     
     
     <div class="container content"><!-- actual container for content starts -->
-        <div class="row first">
+        <div class="row">
              <div class="span12">                
                 <p>
                      jsDelivr is a free CDN (Content Delivery Network) where any web developer can host their files,
@@ -66,7 +66,7 @@
                 </div>
            </div><!-- row ends -->
 
-           <div class="row first">
+           <div class="row">
              <div class="span12">
                 <div class="seperator"><div class="lebrag"><h3>Sponsors</h3></div></div>
 				
@@ -137,7 +137,7 @@
              </div><!-- span ends -->
            </div><!-- row ends -->
 
-           <div class="row first">
+           <div class="row">
                 <div class="seperator"><div class="lebrag"><h3>Media Mentions and Links</h3></div></div>
                 <blockquote>
                     <a href="http://royal.pingdom.com/2013/05/22/web-dev-projects/">Interview with driving forces behind web dev projects jsDelivr & jSter</a><small><cite title="Source Title">Pingdom Interview</cite></small>
@@ -192,6 +192,6 @@
                     <a href="http://w3techs.com/technologies/details/cd-jsdelivr/all/all">w3techs.com</a>
                 </p>
             </div> <!-- span12 -->
-        </div> <!-- row first -->
+        </div> <!-- row -->
 
 <?php include('footer.php'); ?>

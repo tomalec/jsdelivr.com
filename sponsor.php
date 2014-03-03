@@ -39,7 +39,7 @@
     
     
     <div class="container content"><!-- actual container for content starts -->
-        <div class="row first">
+        <div class="row">
             <div class="span12">
                 <h2>About</h2>
                 <p>

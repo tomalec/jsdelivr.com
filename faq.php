@@ -33,7 +33,7 @@
     
     
     <div class="container content"><!-- actual container for content starts -->
-        <div class="row first">
+        <div class="row">
             <div class="span12">
                 <h2>1: How can jsDelivr be free? How can it survive in the long term?</h2>
                 <p>
@@ -57,7 +57,7 @@
 
                 <h2>5: Some projects have wrong Github links</h2>
                 <p>
-                    Yes, unfortunately in the first version of jsDelivr all projects only had a homepage link.
+                    Yes, unfortunately in the version of jsDelivr all projects only had a homepage link.
                     In the new version we decided to add a github link too. So all the files added before the update
                     don't have a github link. Its something that is going to be fixed in time.
                 </p>
@@ -101,6 +101,6 @@
                     The important this is that it all works! :)
                 </p>
             </div> <!-- span12 -->
-        </div> <!-- row first single -->
+        </div> <!-- row single -->
 
 <?php include('footer.php'); ?>

@@ -33,14 +33,14 @@
     
     
     <div class="container content"><!-- actual container for content starts -->
-        <div class="row first" align="center">
+        <div class="row" align="center">
             <div class="seperator"><div class="lebrag"><h3>41 POP Locations all over the world</h3></div></div>
             <div>
                 <iframe width='900' height='450' src='http://a.tiles.mapbox.com/v3/jimaek.map-6gmedxyr/mm/zoompan,zoomwheel.html'></iframe>
             </div>
         </div>
 
-        <div id="#features" class="row first">
+        <div id="#features" class="row">
             <div class="seperator"><div class="lebrag"><h3>Features</h3></div></div>
             <div class="span3">
                 <ul>
