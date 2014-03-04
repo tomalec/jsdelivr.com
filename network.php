@@ -34,7 +34,7 @@
 
     <div class="container content"><!-- actual container for content starts -->
         <div class="row text-center">
-            <div class="seperator"><div class="lebrag"><h3>41 POP Locations all over the world</h3></div></div>
+            <div class="seperator"><div class="lebrag"><h3>42 POP Locations all over the world</h3></div></div>
             <div>
                 <iframe width='900' height='450' src='http://a.tiles.mapbox.com/v3/jimaek.map-6gmedxyr/mm/zoompan,zoomwheel.html'></iframe>
             </div>
