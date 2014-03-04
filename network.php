@@ -24,14 +24,14 @@
             </header>
         </div><!-- container ends -->
     </div><!-- menu ends -->
-    
+
     <div class="page-title">
-    	<div class="container">
-    	    <h2>Network &amp; Features</h2>
-    	</div><!-- container ends -->
+        <div class="container">
+            <h2>Network &amp; Features</h2>
+        </div><!-- container ends -->
     </div>
-    
-    
+
+
     <div class="container content"><!-- actual container for content starts -->
         <div class="row" align="center">
             <div class="seperator"><div class="lebrag"><h3>41 POP Locations all over the world</h3></div></div>

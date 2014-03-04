@@ -23,17 +23,17 @@
             </header>
         </div><!-- container ends -->
     </div><!-- menu ends -->
-    
+
     <div class="page-title">
-    	<div class="container">
-    	    <h2>About jsDelivr</h2>
-    	</div><!-- container ends -->
+        <div class="container">
+            <h2>About jsDelivr</h2>
+        </div><!-- container ends -->
     </div>
-    
-    
+
+
     <div class="container content"><!-- actual container for content starts -->
         <div class="row">
-             <div class="span12">                
+             <div class="span12">
                 <p>
                      jsDelivr is a free CDN (Content Delivery Network) where any web developer can host their files,
                      including CSS, fonts, JavaScript, jQuery plugins, etc.
@@ -47,7 +47,7 @@
                 </p>
                 <h4>System</h4>
                 <p>
-                    What makes it super-fast is the unique multi-CDN infrastructure we use. MaxCDN (NetDNA) and Cloudflare 
+                    What makes it super-fast is the unique multi-CDN infrastructure we use. MaxCDN (NetDNA) and Cloudflare
                     agreed to combine their powers for the good of the open source community and to sponsor us and become our CDN providers.<br>
                     All traffic to our CDN providers is load balanced based on availability and performance for each individual user by another official sponsor of ours, the company Cedexis.<br>
                     This unique system not only gives us the best possible uptime and performance,
@@ -69,7 +69,7 @@
            <div class="row">
              <div class="span12">
                 <div class="seperator"><div class="lebrag"><h3>Sponsors</h3></div></div>
-				
+
                 <div class="media">
                     <span class="sponsor-pic"><img src="img/sponsors/Cloudflare.png" alt=""/></span>
                     <div class="media-body">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
 
-				<div class="media">
+                <div class="media">
                     <span class="sponsor-pic"><img src="img/sponsors/cedexis.png" alt=""/></span>
                     <div class="media-body">
                         <h4 class="media-heading">Cedexis</h4>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
 
-				<div class="media">
+                <div class="media">
                     <span class="sponsor-pic"><img src="img/sponsors/maxcdn.png" alt=""/></span>
                     <div class="media-body">
                         <h4 class="media-heading">MaxCDN</h4>
@@ -94,7 +94,7 @@
                     </div>
                 </div>
 
-				<div class="media">
+                <div class="media">
                     <span class="sponsor-pic"><img src="img/sponsors/builtwith.png" alt=""/></span>
                     <div class="media-body">
                         <h4 class="media-heading">Builtwith</h4>
@@ -102,15 +102,15 @@
                     </div>
                 </div>
 
-				<div class="media">
+                <div class="media">
                     <span class="sponsor-pic"><img src="img/sponsors/leapswitch.png" alt=""/></span>
                     <div class="media-body">
                         <h4 class="media-heading">Leapswitch</h4>
                         <p><a href="http://leapswitch.com">leapswitch</a> is sponsoring us with custom POP locations in Portugal and Ukraine.</p>
                     </div>
                 </div>
-				
-				<div class="media">
+
+                <div class="media">
                     <span class="sponsor-pic"><img src="img/sponsors/prometeus.png" alt=""/></span>
                     <div class="media-body">
                         <h4 class="media-heading">Prometeus</h4>
@@ -118,7 +118,7 @@
                     </div>
                 </div>
 
-				<div class="media">
+                <div class="media">
                     <span class="sponsor-pic"><img src="img/sponsors/secureax.png" alt=""/></span>
                     <div class="media-body">
                         <h4 class="media-heading">SecureAX</h4>
@@ -126,14 +126,14 @@
                     </div>
                 </div>
 
-				<div class="media">
+                <div class="media">
                     <span class="sponsor-pic"><img src="img/sponsors/jetdino.png" alt=""/></span>
                     <div class="media-body">
                         <h4 class="media-heading">Jetdino</h4>
                         <p><a href="https://jetdino.com">Jetdino</a> is sponsoring us with custom POP location in Indonesia.</p>
                     </div>
                 </div>
-                
+
              </div><!-- span ends -->
            </div><!-- row ends -->
 

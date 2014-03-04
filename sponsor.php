@@ -11,7 +11,7 @@
                 <a class="pull-left" href="index.php">
                     <img src="img/jsdelivr-logo.png" alt="jsdelivr.com" width="167" height="50">
                 </a>
-				<div class="plugins pull-left">
+                <div class="plugins pull-left">
                     <a href="http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/">
                         <img src="img/wordpress-logo-square.png" width="40" height="40" alt="Get jsDelivr for WordPress" title="Get WordPress Plugin">
                     </a>
@@ -30,14 +30,14 @@
             </header>
         </div><!-- container ends -->
     </div><!-- menu ends -->
-	   
+
     <div class="page-title">
-    	<div class="container">
-    	<h2>Sponsorships</h2>
-    	</div><!-- container ends -->
+        <div class="container">
+        <h2>Sponsorships</h2>
+        </div><!-- container ends -->
     </div>
-    
-    
+
+
     <div class="container content"><!-- actual container for content starts -->
         <div class="row">
             <div class="span12">

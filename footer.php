@@ -3,7 +3,7 @@
         <div class="container">
           <div class="row-fluid">
             <div id="shareme" class="span4" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page">  </div>
-            <div class="span4"><p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p></div>            
+            <div class="span4"><p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p></div>
             <div class="span4">
                 <p class="pull-right">Official sponsors:
                     <a href="http://www.uservoice.com">
@@ -11,22 +11,22 @@
                     </a>
                 <p>
             </div>
-          </div><!-- row ends here -->  
+          </div><!-- row ends here -->
           <div class="row-fluid">
             <p>
                 jsDelivr &copy; 2014 | <a href="https://twitter.com/jimaek">@jimaek</a>
              </p>
-          </div><!-- row ends here -->		  
+          </div><!-- row ends here -->
           <div class="row-fluid">
              <ul>
                 <li>contact@jsdelivr.com | <a href="https://groups.google.com/forum/#!forum/jsdelivr">Mailing Group</a></li>
                 <li>For Developers: <a href="https://github.com/jsdelivr/api">Official API</a></li>
                 <li>Design based on NASA.Code</li>
-            </ul>            
-           </div><!-- row ends here -->           
+            </ul>
+           </div><!-- row ends here -->
         </div>
     </footer><!-- page-footer ends -->
-    
+
     <script src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5"></script>
     <script src="js/custom.js"></script>
     <script src='js/jquery.showMore.js'></script>

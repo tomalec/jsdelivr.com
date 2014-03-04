@@ -25,10 +25,10 @@ switch ($input) {
     case 'bootstrap':
         $query = mysql_query("select * from `$dbname`.`files` WHERE name='bootstrap' ORDER BY `version` DESC");
         break;
-	case 'min':
+    case 'min':
         $query = mysql_query("select * from `$dbname`.`files` WHERE name='min' ORDER BY `version` DESC");
-        break;	
-	case 'yui':
+        break;
+    case 'yui':
         $query = mysql_query("select * from `$dbname`.`files` WHERE name='yui' ORDER BY `version` DESC");
         break;
     default:

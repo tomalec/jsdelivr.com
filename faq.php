@@ -24,14 +24,14 @@
             </header>
         </div><!-- container ends -->
     </div><!-- menu ends -->
-    
+
     <div class="page-title">
-    	<div class="container">
-    	    <h2>Frequently Asked Questions</h2>
-    	</div><!-- container ends -->
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+        </div><!-- container ends -->
     </div>
-    
-    
+
+
     <div class="container content"><!-- actual container for content starts -->
         <div class="row">
             <div class="span12">
@@ -45,7 +45,7 @@
                 <p>
                     No and there will never be.
                 </p>
-		        <h2>3: Does MaxCDN own jsDelivr?</h2>
+                <h2>3: Does MaxCDN own jsDelivr?</h2>
                 <p>
                     No, MaxCDN is one of our biggest sponsors but they don't own or influence the project in any way. Neither does any other company.
                 </p>
@@ -71,7 +71,7 @@
                 <p>
                     I don't, the project is a non-profit. Most of the stuff is sponsored by companies and rest is paid by me.
                 </p>
-				
+
                 <h2>8: How can I help?</h2>
                 <p>
                     If you are a company you could consider donating your services or products.
