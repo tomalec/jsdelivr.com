@@ -4,7 +4,7 @@
     <div class="menubar">
         <div class="github-fork-ribbon-wrapper left">
             <div class="github-fork-ribbon">
-            <a href="https://github.com/jimaek/jsdelivr">Fork me on GitHub</a>
+                <a href="https://github.com/jimaek/jsdelivr">Fork me on GitHub</a>
             </div>
         </div>
         <div class="container">
@@ -41,7 +41,11 @@
         </div>
 
         <div id="#features" class="row">
-            <div class="seperator"><div class="lebrag"><h3>Features</h3></div></div>
+            <div class="seperator">
+                <div class="lebrag">
+                    <h3>Features</h3>
+                </div>
+            </div>
             <div class="span3">
                 <ul>
                     <li>Global presence</li>
@@ -70,5 +74,6 @@
                 </ul>
             </div>
         </div>
+    </div> <!-- /container -->
 
 <?php include('footer.php'); ?>

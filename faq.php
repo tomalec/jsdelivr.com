@@ -102,5 +102,6 @@
                 </p>
             </div> <!-- span12 -->
         </div> <!-- row single -->
+    </div> <!-- /container -->
 
 <?php include('footer.php'); ?>

@@ -110,5 +110,6 @@
                  <p>*We wont offer all of the above to all sponsors, it depends on the offer.</p>
             </div>
         </div>
+    </div> <!-- /container -->
 
 <?php include('footer.php'); ?>
