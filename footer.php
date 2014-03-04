@@ -32,7 +32,7 @@
     <script src='js/jquery.showMore.js'></script>
 
 <?php if(!$google){ include('code/config.php');?>
-    <script type="text/javascript">
+    <script>
         // Search
         $(document).ready(gogo());
         $(window).bind('hashchange', function () {
@@ -65,7 +65,7 @@
     </script>
 <?php } ?>
 
-    <script type="text/javascript">
+    <script>
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-31822709-1']);
         _gaq.push(['_trackPageview']);
