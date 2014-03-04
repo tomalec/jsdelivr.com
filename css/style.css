@@ -514,7 +514,7 @@ iframe {
 
 /* footer */
 footer {
-    background: #F6F6F6 url('../img/agsquare.png') repeat;
+    background-color: #f6f6f6;
     border-top: 1px solid #e5e5e5;
     color: #717171;
     font-size: 13px;
