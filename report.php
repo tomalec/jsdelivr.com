@@ -9,17 +9,17 @@ if ((time() - $cache_created) < $cache_time) {
 	die();  
 }  
 ob_start();
-function cedexdata(){
+function cedexdata($days){
 	include('code/config.php');
 	$auth = "oauth/token?client_id=$cedexisID&client_secret=$cedexisSecret&grant_type=client_credentials";
 	$output = getmethedata($auth, '');
 	$key = $output->value;
 
-	$option = "v2/reporting/openmix.json?applicationIds=4&platformIds=10148%2C12444%2C7844%2C7845%2C7859%2C8423&timeRange=last_30_days&results=providerId[sort%3Ameasurements+desc]%2CtimeRange%2Cmeasurements";
+	$option = "v2/reporting/openmix.json?applicationIds=4&platformIds=10148%2C12444%2C7844%2C7845%2C7859%2C8423&timeRange=last_".$days."_days&results=providerId[sort%3Ameasurements+desc]%2CtimeRange%2Cmeasurements";
 	$output = getmethedata($option, $key);
 	$data = $output->facts;
 
-	$option = "v2/reporting/openmix.json?applicationIds=4&platformIds=10148%2C12444%2C7844%2C7845%2C7859%2C8423&timeRange=last_30_days&results=timeRange";
+	$option = "v2/reporting/openmix.json?applicationIds=4&platformIds=10148%2C12444%2C7844%2C7845%2C7859%2C8423&timeRange=last_".$days."_days&results=timeRange";
 	$output = getmethedata($option, $key);
 	$dates = $output->facts;
 	$providersNames = array("10148"=>"MaxCDN", "12444"=>"CloudFlare", "7859"=>"PROMETEUS Italy", "7845"=>"LEAP Ukraine", "7844"=>"LEAP Portugal", "8423"=>"EXPERTVM Singapore");
@@ -90,9 +90,11 @@ function getmethedata($param, $key){
 
     <div class="container content">
 	<div class="row text-center">
-		<h3>Load Balancing Decisions</h3>
-			<div id="decisions" style="height: 350px;"></div>
-        </div>
+		<h3>Load Balancing Decisions - 30 Days</h3>
+		<div id="decisions30" style="height: 350px;"></div>
+		<h3>Load Balancing Decisions - 7 Days</h3>
+		<div id="decisions7" style="height: 350px;"></div>
+    </div>
     </div> <!-- /container -->
     <footer>
         <div class="container">
@@ -125,13 +127,24 @@ function getmethedata($param, $key){
     <script src="//cdn.jsdelivr.net/g/jquery@1.11.0,bootstrap@2.3.2,sharrre@1.3.5,raphael@2.1.2,morris.js@0.4.3"></script>
     <script>
 		$(function () {
-		  var tax_data = [
-			   <?php cedexdata(); ?>
+		  var decisions30 = [
+			   <?php cedexdata('30'); ?>
 		  ];
-		  
+		  var decisions7 = [
+			   <?php cedexdata('7'); ?>
+		  ];
 			Morris.Line({
-			element: 'decisions',
-			data: tax_data,
+			element: 'decisions30',
+			data: decisions30,
+			xkey: 'date',
+			ykeys: ['maxcdn', 'cloudflare', 'prom-it', 'leap-ua', 'leap-pt', 'exvm-sg'],
+			labels: ['MaxCDN', 'CloudFlare', 'PROMETEUS Italy', 'LEAP Ukraine', 'LEAP Portugal', 'EXPERTVM Singapore'],
+			smooth: false
+		  });
+		  
+		  Morris.Line({
+			element: 'decisions7',
+			data: decisions7,
 			xkey: 'date',
 			ykeys: ['maxcdn', 'cloudflare', 'prom-it', 'leap-ua', 'leap-pt', 'exvm-sg'],
 			labels: ['MaxCDN', 'CloudFlare', 'PROMETEUS Italy', 'LEAP Ukraine', 'LEAP Portugal', 'EXPERTVM Singapore'],
