@@ -139,7 +139,9 @@ function getmethedata($param, $key){
 			xkey: 'date',
 			ykeys: ['maxcdn', 'cloudflare', 'prom-it', 'leap-ua', 'leap-pt', 'exvm-sg'],
 			labels: ['MaxCDN', 'CloudFlare', 'PROMETEUS Italy', 'LEAP Ukraine', 'LEAP Portugal', 'EXPERTVM Singapore'],
-			smooth: false
+			smooth: false,
+			hideHover: true,
+			lineColors: ['#0b62a4', '#000000', '#4da74d', '#afd8f8', '#edc240', '#cb4b4b', '#9440ed']
 		  });
 		  
 		  Morris.Line({
@@ -148,7 +150,9 @@ function getmethedata($param, $key){
 			xkey: 'date',
 			ykeys: ['maxcdn', 'cloudflare', 'prom-it', 'leap-ua', 'leap-pt', 'exvm-sg'],
 			labels: ['MaxCDN', 'CloudFlare', 'PROMETEUS Italy', 'LEAP Ukraine', 'LEAP Portugal', 'EXPERTVM Singapore'],
-			smooth: false
+			smooth: false,
+			hideHover: true,
+			lineColors: ['#0b62a4', '#000000', '#4da74d', '#afd8f8', '#edc240', '#cb4b4b', '#9440ed']
 		  });
 		});
 		var _gaq = _gaq || [];
