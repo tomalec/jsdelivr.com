@@ -39,7 +39,7 @@
             <p>
                 <div class="hosted">
                     <p>
-                        <span>914</span> projects hosted
+                        <span>951</span> projects hosted
                     </p>
                 </div>
                 <label class="hide" for="s">Search:</label>
