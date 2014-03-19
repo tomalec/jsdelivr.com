@@ -76,7 +76,7 @@
                 <p>
                     If you are a company you could consider donating your services or products.
                     You could also help us with promoting our product, integrating jsDelivr into your own solutions,
-                    donating money, giving advices, ideas, human resources... As a non-profit we will appriciate anything at all.
+                    donating money, giving advice, ideas, human resources... As a non-profit we will appreciate anything at all.
                     The same goes for individuals, you can always donate money or even help with the development/design.
                     Write blog posts or submit new ideas and features. Just send us an email.
                 </p>
@@ -98,7 +98,7 @@
                 <p>
                     Maybe, I work as a system administrator and I never actually studied programming or web design.
                     Its just a hobby of mine, everything I know comes from different sources and online tutorials.
-                    The important this is that it all works! :)
+                    The important thing is that it all works! :)
                 </p>
             </div> <!-- span12 -->
         </div> <!-- row single -->
