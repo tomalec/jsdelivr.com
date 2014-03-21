@@ -1,6 +1,6 @@
 <?php
 
-function buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra2, $domain) {
+function buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra2, $domain, $mainfile) {
 include('config.php');
 mysql_connect('localhost', $dbuser, $dbpass);
 @mysql_select_db($dbname) or die("Unable to select database");
@@ -54,7 +54,7 @@ $query = mysql_query("SELECT `filename` FROM `$dbname`.`files`  WHERE name=\"$na
             <table class="table table-striped table-hover">
                 <thead>
                     <tr>
-                        <th>CDN Files</th>
+                        <th>CDN Files <span style="font-size: 11px; font-weight:normal;">(<a href="https://github.com/jsdelivr/jsdelivr#load-multiple-files-with-single-http-request">mainfile</a>:'. $mainfile .')</span></th>
                     </tr>
                 </thead>
                 <tbody> ';

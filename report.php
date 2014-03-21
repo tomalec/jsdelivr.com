@@ -1,5 +1,5 @@
 <?php
-$cache_time = 3600;
+$cache_time = 36000;
 $cache_folder = 'cache/'; 
 $cache_filename = $cache_folder.md5($_SERVER['REQUEST_URI']);
 $cache_created  = (file_exists($cache_filename)) ? filemtime($cache_filename) : 0;  

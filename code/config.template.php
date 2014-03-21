@@ -6,4 +6,5 @@ $dbuser = '';
 $dbpass = '';
 $cedexisSecret = ''; // needed only for reports
 $cedexisID = '';
+$scan_pass = ''; // scanner protection
 ?>

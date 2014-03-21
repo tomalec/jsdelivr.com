@@ -43,6 +43,7 @@ while ($row = mysql_fetch_assoc($query)) {
     $homepage    = $file_info['homepage'];
     $description = $file_info['description'];
     $github      = $file_info['github'];
+    $mainfile      = $file_info['mainfile'];
     if (empty($github)) {
         $github = "http://github.com";
     }
@@ -57,7 +58,7 @@ while ($row = mysql_fetch_assoc($query)) {
     $arra3 = array_filter($arra3);
     natsort($arra3);
     $ver = end($arra3);
-    buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra3, $domain);
+    buildresult($name, $ver, $filenames, $author, $homepage, $github, $description, $arra3, $domain, $mainfile);
     $arra3 = '';
     $arra2 = '';
     $names[] .= $name; //build array with all names
