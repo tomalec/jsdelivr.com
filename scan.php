@@ -2,6 +2,8 @@
 include('code/config.php');
 error_reporting(E_ERROR | E_PARSE);
 
+if ($_GET["pass"] != $scan_pass)exit;
+
 ini_set('output_buffering', 0);
 ini_set('implicit_flush', 1);
 ob_end_flush();
