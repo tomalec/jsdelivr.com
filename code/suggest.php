@@ -30,6 +30,12 @@ switch ($input) {
         break;
     case 'yui':
         $query = mysql_query("select * from `$dbname`.`files` WHERE name='yui' ORDER BY `version` DESC");
+        break;  
+	case 'ractive':
+        $query = mysql_query("select * from `$dbname`.`files` WHERE name='ractive' ORDER BY `version` DESC");
+        break;  
+	case 'scribe':
+        $query = mysql_query("select * from `$dbname`.`files` WHERE name='scribe' ORDER BY `version` DESC");
         break;
     default:
         $query = mysql_query("SELECT * FROM  ( select * from `$dbname`.`files` WHERE name LIKE '%$input%' ORDER BY `version`) as tmp_table GROUP BY `name` LIMIT 10");
