@@ -2,7 +2,7 @@
         <div class="container">
           <div class="row-fluid">
             <div id="shareme" class="span4" data-url="http://www.jsdelivr.com" data-text="jsDelivr - A free CDN for javascript and jquery plugins" data-title="share this page">  </div>
-            <div class="span4"><p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p></div>
+            <div class="span4"><p>Also visit: <a href="http://www.super-ping.com/">super-ping.com</a>, <a href="http://tools.maxcdn.com/">tools.maxcdn.com</a> and <a href="http://www.cdnperf.com/">CDNperf</a></p></div>
             <div class="span4">
                 <p class="pull-right">Official sponsors:
                     <a href="http://www.uservoice.com">
