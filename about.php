@@ -154,13 +154,6 @@
                         <p><a href="https://jetdino.com">Jetdino</a> is sponsoring us with custom POP location in Indonesia.</p>
                     </div>
                 </div>
-				
-				<div class="media">                   
-                    <div class="media-body">
-                        <h4 class="media-heading">Patrick N.</h4>
-                        <p><a href="https://twitter.com/pnommensen">Patrick N.</a> is sponsoring us with custom POP location in Russia.</p>
-                    </div>
-                </div>
 
             </div><!-- span ends -->
         </div><!-- row ends -->
