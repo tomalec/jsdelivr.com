@@ -25,6 +25,8 @@ while ($row = mysql_fetch_assoc($query)) {
             echo '<script src="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '"></script>&#13;';
         } elseif (checkext($filename) == 'css') {
             echo '<link rel="stylesheet" href="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '">&#13;';
+        } elseif (checkext($filename) == 'html') {
+            echo '<link rel="import" href="//cdn.jsdelivr.net/' . $input . '/' . $version . '/' . $filename . '">&#13;';
         }
     }
     echo '</textarea>
